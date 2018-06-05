@@ -1,0 +1,33 @@
+cloudera5.14.x版本组件的介绍  https://www.cloudera.com/documentation/enterprise/release-notes/topics/cdh_vd_cdh_package_tarball_514.html
+cloudera     各组件的介绍     https://www.cloudera.com/documentation/enterprise/release-notes/topics/cdh_vd_cdh_package_tarball.html
+Avro	　　　　　　　　  avro-1.7.6+cdh5.14.2+137
+Crunch	　　　　　　　　  crunch-0.11.0+cdh5.14.2+104
+Datafu	　　　　　　　　  pig-udf-datafu-1.1.0+cdh5.14.2+26
+Flume-ng	  flume-ng-1.6.0+cdh5.14.2+181
+Hadoop	　　　　　　　　  hadoop-2.6.0+cdh5.14.2+2748
+Hadoop Mrv1	  hadoop-0.20-mapreduce-2.6.0+cdh5.14.2+2748
+Hbase	　　　　　　　　  hbase-1.2.0+cdh5.14.2+456
+Hbase-solr        hbase-solr-1.5+cdh5.14.2+73
+Hive	　　　　　　　　  hive-1.1.0+cdh5.14.2+1344
+Hue	　　　　　　　   hue-3.9.0+cdh5.14.2+7875
+Impala	　　　　　　　　  impala-2.11.0+cdh5.14.2+0
+Kite-SDK	  kite-1.0.0+cdh5.14.2+146
+Kudu	          kudu-1.6.0+cdh5.14.2+0
+Llama	        　 llama-1.0.0+cdh5.14.2+0
+Mahout	　　　　　　　  　mahout-0.9+cdh5.14.2+35
+Oozie	　　　　　　　　  oozie-4.1.0+cdh5.14.2+484
+Parquet	　　　　　　　　  parquet-1.5.0+cdh5.14.2+196
+Parquet-format	  parquet-format-2.1.0+cdh5.14.2+19
+Pig	　　　　　　　　　 pig-0.12.0+cdh5.14.2+113
+Cloudera Search	　　search-1.0.0+cdh5.14.2+0
+Sentry	　　　　　　　　  sentry-1.5.1+cdh5.14.2+444
+Solr	　　　　　　　　  solr-4.10.3+cdh5.14.2+523
+Spark	　　　　　　　　  spark-1.6.0+cdh5.14.2+543
+Sqoop	　　　　　　　  　sqoop-1.4.6+cdh5.14.2+130
+Sqoop2	　　　　　　　  　sqoop2-1.99.5+cdh5.14.2+47
+Whirr	　　　　　　　　  whirr-0.9.0+cdh5.14.2+24
+Zookeeper	　 zookeeper-3.4.5+cdh5.14.2+142
+
+
+
+Avro：数据序列化的系统，提供着如Thrift和Protocol Buffers等系统相似的功能，Avro并不需要生成代码，模式和数据存放在一起

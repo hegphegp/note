@@ -1,0 +1,11 @@
+查看org.apache.shiro:shiro-spring-boot-web-starter:1.4.0的class DefaultWebSecurityManager
+查看org.apache.shiro:shiro-spring-boot-web-starter:1.4.0的class ActiveDirectoryRealm
+查看class AuthorizingRealm
+查看JdbcRealm
+查看SimpleAccountRealm
+查看IniRealm
+查看PropertiesRealm
+
+
+
+

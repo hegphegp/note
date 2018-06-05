@@ -1,0 +1,14 @@
+使用shiro框架进行登录的两种实现
+方法一：配置FormAuthenticationFilter
+做法：配置了 /** = authc (配置方式一:假设在shiro.xml中/** = authc, 方式二:filterChainDefinitionMap.put("/**", "authc"))
+原理: authc对应org.apache.shiro.web.filter.authc.FormAuthenticationFilter过滤器
+/** = authc  则表示所有路径都被此过滤器拦截
+当未登录请求被拦截，会调用FormAuthenticationFilter.onAccessDeny(),以下以下分为两种情况
+    1)情况一: 如果该请求的是loginUrl
+         a) 先调用AuthenticatingFilter.executeLogin()
+         b) 然后AuthenticatingFilter.executeLogin()会调用subject.login(token)
+         c) subject.login(token) 最终会调用realm的doGetAuthenticationInfo()
+         d) 如果登录成功，则调用AuthenticatingFilter.onLoginSuccess() return true; 如果登录失败, 则调用AuthenticatingFilter.onLoginFailure(): return false;
+    2)情况二: 如果该请求不是loginUrl，则使request重定向到loginUrl，并return false;
+
+
