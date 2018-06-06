@@ -1,0 +1,16 @@
+.idea/
+_book
+target/
+out
+*.iml
+templates/
+*.log
+.gradle
+.build
+build
+classes
+cache
+.testSql
+.classpath
+.project
+.settings/
