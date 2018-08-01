@@ -20,7 +20,6 @@ git config --local --list
 # 2) GitHub创建的项目不要创建 .gitignore 文件, IntelliJ IDEA创建的项目会自动创建 .gitignore 文件
 # 先在本地创建项目，再到本地项目用 git init 命令初始化
 git init    # 初始化本地
-# 本地的就不做任何的git操作
 git remote add origin git@github.com:xxx/xxxx.git
 git pull origin master # 从github到本地
 git add .
